@@ -18,4 +18,4 @@ Tecnologias Utilizadas: <br>
 - Refinamento da estilização, garantindo uma aparência visual atraente e coesa em toda a página.
 - Utilização da técnica de flex-box para criar layouts flexíveis e responsivos, garantindo uma experiência consistente em diferentes dispositivos e tamanhos de tela.
 
-Obs.: A estilização não está funcionando no GitHub Pages, estou verificando a situação.
+Obs.: Problema com estilização do GitHub Pages corrigido, para correção do problema, deve-se entrar no arquivo CSS através do GitHub e copiar o "path", após isso, colar o mesmo no href invés do diretório anterior.
