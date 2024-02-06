@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/portifolio/personal-page/style.css" rel="stylesheet" />
+    <link href="/portifolio/personal-page/css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Protest+Riot&display=swap" rel="stylesheet">
     <title>Portifólio</title>
 </head>
 
@@ -16,10 +17,20 @@
             <section id="sectionHeader">
                 <div>
                     <h1>Samuel Lucas de Almeida</h1>
-                    <h3>Acadêmico de Engenharia de Software</h3>
+                    <h3>Software engineering and systems analysis and development academic</h3>
                 </div>
             </section>
         </header>
+
+        <hr>
+
+        <nav>
+            <section id="sectionNav">
+                <a class="textNav" href="https://github.com/samuel-almeida-dev" target="_blank">GitHub</a>
+                <a class="textNav" href="https://github.com/samuel-almeida-dev?tab=repositories" target="_blank">Meus Projetos</a>
+                <a class="textNav" href="https://www.linkedin.com/in/samuel-almeida-if/" target="_blank">Linkedin</a>
+            </section>
+        </nav>
 
         <hr>
         
@@ -27,7 +38,9 @@
             <section id="sectionMain">
                 <div id="myDescription">
                     <h3>Sobre mim:</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque risus ex, hendrerit vel vulputate sed, rhoncus ut libero. Pellentesque eu risus non turpis mattis elementum mollis ac arcu. Nam in justo eros. Quisque non velit vel velit commodo feugiat. Duis id libero feugiat, tristique nisi in, hendrerit turpis. Nunc id sem vulputate leo posuere iaculis. Donec varius euismod quam sit amet rhoncus. Sed placerat tellus et ipsum pretium ullamcorper sed sed lacus. Ut nec nulla lacinia, elementum purus id, faucibus nibh. In hac habitasse platea dictumst. Aliquam iaculis, ante quis faucibus sagittis, eros urna rutrum libero, at elementum lorem leo in ex.</p>
+                    <p style="text-align: justify">Sou um acadêmico entusiasmado de Engenharia de Software e Análise e Desenvolvimento de Sistemas (ADS) apaixonado por tecnologia e programação. Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento web, principalmente em JavaScript, HTML e CSS.
+                        <br> <br> Com uma sólida compreensão da linguagem de marcação HTML e das técnicas de estilização com CSS, estou mergulhando profundamente no mundo do JavaScript. Já domino boa parte do conteúdo essencial da linguagem e estou explorando conceitos avançados, especialmente relacionados a arrays e seus métodos.
+                        <br> <br> Como parte do meu compromisso em me tornar um desenvolvedor fullstack qualificado, estou matriculado em um curso na Digital College, intitulado "Fullstack". Este curso abrange uma ampla gama de tópicos, desde o desenvolvimento front-end até o back-end, permitindo-me adquirir uma base sólida para me tornar um desenvolvedor júnior competente em um futuro próximo.</p>
                 </div>
                 <div id="myEducation">
                     <h3>Formação:</h3>
@@ -36,10 +49,6 @@
                         <li>Descomplica: Engenharia de Software</li>
                         <li>Descomplica: Análise e Desenvolvimento de Sistemas</li>
                     </ul>
-                </div>
-                <div>
-                    <h3>Projetos:</h3>
-                    <a href="/portifolio/test.html">Visualizar meus projetos</a>
                 </div>
             </section>
             <hr>
@@ -58,11 +67,11 @@
                 <div>
                     <h3>Deseja entrar em contato?</h3>
                     <form method="get" action="" class="formsContacts">
-                        <label class="labelFormsContacts">Nome:</label>
-                        <input type="text" name="fname" id="fname">
+                        <label class="labelFormsContacts" >Nome:</label>
+                        <input type="text" name="fname" id="fname" required>
 
                         <label class="labelFormsContacts">Email:</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
 
                         <label class="labelFormsContacts">Comentários:</label>
                         <textarea name="" id="" cols="50" rows="3"></textarea>
