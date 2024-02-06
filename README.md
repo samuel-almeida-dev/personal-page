@@ -11,3 +11,4 @@ Tecnologias Utilizadas: <br>
 - Utilização das principais tags HTML para estruturar o conteúdo.
 - Atribuição de atributos necessários para melhorar a semântica e acessibilidade.
 - Criação de classes CSS para aplicar estilos específicos e modularizar o código.
+Obs.: A estilização não está funcionando no GitHub Pages, estou verificando a situação.
