@@ -5,11 +5,17 @@ Tecnologias Utilizadas: <br>
 - HTML: Utilizado para estruturar a página e seu conteúdo. <br>
 - CSS: Utilizado para estilizar e tornar a página visualmente atraente.
 
-1º Commit: Fundações Iniciais
+1º Commit: Criação dos arquivos e estrutura.
 - Criação da estrutura básica da página utilizando HTML.
 - Implementação do CSS para adicionar estilo à página.
 - Utilização das principais tags HTML para estruturar o conteúdo.
 - Atribuição de atributos necessários para melhorar a semântica e acessibilidade.
 - Criação de classes CSS para aplicar estilos específicos e modularizar o código. 
+
+2º Commit: Aplicação e refinamento da estilização.
+- Implementação da barra de navegação.
+- Adição de hyperlinks nos campos de navegação.
+- Refinamento da estilização, garantindo uma aparência visual atraente e coesa em toda a página.
+- Utilização da técnica de flex-box para criar layouts flexíveis e responsivos, garantindo uma experiência consistente em diferentes dispositivos e tamanhos de tela.
 
 Obs.: A estilização não está funcionando no GitHub Pages, estou verificando a situação.
