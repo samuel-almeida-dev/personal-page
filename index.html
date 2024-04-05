@@ -1,96 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Protest+Riot&display=swap" rel="stylesheet">
-    <title>Portifólio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div id="container">
+    <div class="container">
         <header>
-            <section id="sectionHeader">
-                <div>
-                    <h1>Samuel Lucas de Almeida</h1>
-                    <h3>Software engineering and systems analysis and development academic</h3>
-                </div>
-            </section>
+            <nav>
+                <p>Samuel A.</p>
+                <ul>
+                    <a href="">
+                        <li> <img src="./images/icons8-usuário-masculino-tipo-de-pele-com-círculo-3.gif" alt="">Sobre
+                        </li>
+                    </a>
+                    <a href="https://github.com/samuel-almeida-dev" target="_blank">
+                        <li> <img src="./images/icons8-github.gif" alt="">GitHub</li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samuel-almeida-if/" target="_blank">
+                        <li> <img src="./images/icons8-linkedin.gif" alt="">LinkedIn</li>
+                    </a>
+                </ul>
+            </nav>
         </header>
-
-        <hr>
-
-        <nav>
-            <section id="sectionNav">
-                <a class="textNav" href="https://github.com/samuel-almeida-dev" target="_blank">GitHub</a>
-                <a class="textNav" href="https://github.com/samuel-almeida-dev?tab=repositories" target="_blank">Meus Projetos</a>
-                <a class="textNav" href="https://www.linkedin.com/in/samuel-almeida-if/" target="_blank">Linkedin</a>
-            </section>
-        </nav>
-
-        <hr>
-        
         <main>
-            <section id="sectionMain">
-                <div id="myDescription">
-                    <h3>Sobre mim:</h3>
-                    <p style="text-align: justify">Sou um acadêmico entusiasmado de Engenharia de Software e Análise e Desenvolvimento de Sistemas (ADS) apaixonado por tecnologia e programação. Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento web, principalmente em JavaScript, HTML e CSS.
-                        <br> <br> Com uma sólida compreensão da linguagem de marcação HTML e das técnicas de estilização com CSS, estou mergulhando profundamente no mundo do JavaScript. Já domino boa parte do conteúdo essencial da linguagem e estou explorando conceitos avançados, especialmente relacionados a arrays e seus métodos.
-                        <br> <br> Como parte do meu compromisso em me tornar um desenvolvedor fullstack qualificado, estou matriculado em um curso na Digital College, intitulado "Fullstack". Este curso abrange uma ampla gama de tópicos, desde o desenvolvimento front-end até o back-end, permitindo-me adquirir uma base sólida para me tornar um desenvolvedor júnior competente em um futuro próximo.</p>
+            <div class="profile">
+                <div class="imageProfile">
+                    <img src="./images/Lucas.PNG" alt="">
                 </div>
-                <div id="myEducation">
-                    <h3>Formação:</h3>
-                    <ul>
-                        <li>Digital College: Fullstack</li>
-                        <li>Descomplica: Engenharia de Software</li>
-                        <li>Descomplica: Análise e Desenvolvimento de Sistemas</li>
-                    </ul>
+                <div class="textProfile">
+                    <h1>Front-End Developer</h1>
+                    <hr>
+                    <h2>Sobre mim:</h2>
+                    <p>Olá! Meu nome é Samuel e sou um desenvolvedor front-end com experiência em HTML5, CSS3 e
+                        JavaScript. </p>
+                    <hr>
+                    <div class="links">
+                        <a href="http://"><img src="./images/icons8-facebook-50.png" alt=""></a>
+                        <a href="http://"><img src="./images/icons8-instagram-50.png" alt=""></a>
+                        <a href="http://"><img src="./images/icons8-twitterx-50.png" alt=""></a>
+                        <a href="http://"><img src="./images//icons8-linkedin-50.png" alt=""></a>
+                    </div>
+                    <p id="subTextLinks">Siga minhas redes sociais.</p>
                 </div>
-            </section>
-            <hr>
-            <section id="sectionSkills">
-                <div>
-                    <h3>O que estou estudando</h3>
-                </div>
-                <div>
-                    <img class="item-logo" src="./images/icons8-html-50.png" alt="icons8-html-50">
-                    <img class="item-logo" src="./images/icons8-css3-50.png" alt="icons8-css3-50">
-                    <img class="item-logo" src="./images/icons8-javascript-50.png" alt="icons8-javascript-50">
-                </div>
-            </section>
-            <hr>
-            <section id="sectionContact">
-                <div>
-                    <h3>Deseja entrar em contato?</h3>
-                    <form method="get" action="" class="formsContacts">
-                        <label class="labelFormsContacts" >Nome:</label>
-                        <input type="text" name="fname" id="fname" required>
-
-                        <label class="labelFormsContacts">Email:</label>
-                        <input type="email" name="email" id="email" required>
-
-                        <label class="labelFormsContacts">Comentários:</label>
-                        <textarea name="" id="" cols="50" rows="3"></textarea>
-
-                        <button style="padding: 7px; margin-left: 12px;">Salvar</button>
-                    </form>
-                </div>
-            </section>
+            </div>
+            <div class="projects">
+                
+            </div>
         </main>
-
-        <hr>
-
         <footer>
-            <section id="sectionFooter">
-                <div>
-                    <p>Desenvolvido por Samuel Lucas de Almeida</p>
-                </div>
-            </section>
+
         </footer>
     </div>
 </body>
+
 </html>
